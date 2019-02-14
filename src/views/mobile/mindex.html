@@ -1,0 +1,257 @@
+{% extends './public/layout.html' %}
+
+{% block head %}
+<link type="text/css" rel="stylesheet" href="css/home.css"/>
+<link type="text/css" rel="stylesheet" href="css/swiper.min.css"/>
+{% endblock %}
+
+{% block body %}
+<div class="contanter">
+    <!--轮播图-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/mbanner-1.png" width="100%">
+                <p class="swiper-txt">
+                    <span>精准营销获客工具</span><br/>
+                    <a href="mapply.html">
+                        <button class="apply-btn act-apply">申请体验</button>
+                    </a>
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/mbanner-2.png" width="100%">
+                <p class="swiper-txt">
+                    <a href="http://uee.me/MFhR">
+                        <button class="action-detail act-detail">了解详情</button>
+                    </a>
+                </p>
+            </div>
+            <!-- <div class="swiper-slide">
+             <img src="images/banner_03.png" width="100%" >
+             <p class="swiper-txt">
+              <span>深入行业应用场景</span><br/>
+              银行，家装，汽车，房产等深度应用
+            </p>
+          </div> -->
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--轮播图-->
+    <!-- 视频-start -->
+    <div class="block-white">
+        <div class="video">
+            <h3 class="title">快速了解威脉</h3>
+            <div class="video-container">
+                <div class="video-player" id="video"></div>
+                <!-- <ul class="video-list">
+                  <li class="video-list-item" data-src="./1111.mp4"></li>
+                  <li class="video-list-item" data-src="./2222.mp4"></li>
+                  <li class="video-list-item"></li>
+                  <li class="video-list-item"></li>
+                </ul> -->
+            </div>
+        </div>
+    </div>
+    <!-- 视频-end -->
+    <!-- overview-start -->
+    <div class="block-gray block">
+        <div class="overview">
+            <div class="overview-display"></div>
+            <div class="overview-info">
+                <div class="overview-info-title">帮助企业挖掘微信交易流量</div>
+                <ul class="overview-info-des">
+                    <li>人脉、兴趣、诉求</li>
+                    <li>广度、深度、热度</li>
+                    <li>精准营销 老客户营销 全员营销 媒介营销</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- overview-end -->
+    <!-- strap-start -->
+    <div class="block-white">
+        <div class="strap">
+            <div class="strap-title">帮助企业落地销售，管理，运营</div>
+            <div class="strap-des">
+                全面的产品培训 +7X24h 售后服务
+                <br/>
+                专业的营销全链条支持的
+                <br/>
+                客户服务体系
+            </div>
+        </div>
+    </div>
+    <!-- strap-end -->
+    <!-- logo-start -->
+    <div class="block-gray block">
+        <h3 class="title">数百家企业的共同选择</h3>
+        <div class="logo-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide logo-slide">
+                    <div class="logo-list">
+                        <div class="logo-list-item"><img src="images/logo/aisite.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/aieryanke.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/aite.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/baoma.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/beieranqin.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/dianshi.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="swiper-slide logo-slide">
+                    <div class="logo-list">
+                        <div class="logo-list-item"><img src="images/logo/dongbax.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/fengtian.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/haoxiaozi.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/huizhizs.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/lingmu.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/meidizs.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="swiper-slide logo-slide">
+                    <div class="logo-list">
+                        <div class="logo-list-item"><img src="images/logo/meiwosi.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/meiyitian.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/meizhiyi.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/milanbaiyu.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/mingjiangzs.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/ningmengshu.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="swiper-slide logo-slide">
+                    <div class="logo-list">
+                        <div class="logo-list-item"><img src="images/logo/niuer.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/panzinvrenfang.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/qiansizhuangshi.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/ruilanyimei.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/shengjiaxin.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/tengmenguoji.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="swiper-slide logo-slide">
+                    <div class="logo-list">
+                        <div class="logo-list-item"><img src="images/logo/xinhuameitian.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/yibaili.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/yingfujiaoyu.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/yuebaoyuan.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/zhiyinzs.png" alt=""></div>
+                        <div class="logo-list-item"><img src="images/logo/zhongguoliantong.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-pagination"></div>
+        </div>
+    </div>
+    <!-- logo-end -->
+
+    <!-- comment-start  -->
+    <div class="block-white block">
+        <h3 class="title">遍布全国的合作伙伴</h3>
+        <div class="comment-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide comment-slide">
+                    <ul class="comment-list">
+                        <li class="comment-list-item">
+                            <div class="comment-quote">“</div>
+                            <div class="comment-title">
+                                来自连锁整形机构营销主管
+                            </div>
+                            <div class="comment-des">
+                                我们每个人都是销售的种子，威脉带给我们更多关于业务的想象力，帮我们挖掘出成为强者的潜力。
+                            </div>
+                        </li>
+                        <li class="comment-list-item">
+                            <div class="comment-quote">“</div>
+                            <div class="comment-title">
+                                来自银行一线客户经理
+                            </div>
+                            <div class="comment-des">
+                                通过威脉数据,我发现帮我转发的客户,都是前期做过工作的,有些还没有什么深交,让我挺感动,感觉做了很多事没有白辛苦
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide comment-slide">
+                    <ul class="comment-list">
+                        <li class="comment-list-item">
+                            <div class="comment-quote">“</div>
+                            <div class="comment-title">
+                                来自家装行业龙头企业董事长(一次性购买4000个威脉账户)
+                            </div>
+                            <div class="comment-des">
+                                企业要有胆识,通过理性预判,勇敢尝试任何可能带来价值的新玩法,错了我输的起,但对了,就可以将竞争者远远抛在后面
+                            </div>
+                        </li>
+                        <li class="comment-list-item">
+                            <div class="comment-quote">“</div>
+                            <div class="comment-title">
+                                来自全员营销企业婚纱摄影行业技术部人员
+                            </div>
+                            <div class="comment-des">
+                                以前很排斥帮公司推广,现在使用威脉后,有种玩微博的感觉,我自己的数据每天都想着,谁阅读,转发我的内容,公司目前成交客户中哪些是我的人脉
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide comment-slide">
+                    <ul class="comment-list">
+                        <li class="comment-list-item">
+                            <div class="comment-quote">“</div>
+                            <div class="comment-title">
+                                来自知名宝马4S店一线销售
+                            </div>
+                            <div class="comment-des">
+                                威脉的玩法很有意思，透过脉络挖出很多隐藏信息，高逼格玩法，以前看不到的现在一清二楚，每次活动都能比以往多带来几个客户，知道怎么玩出钱，很有意思。
+                            </div>
+                        </li>
+                        <li class="comment-list-item">
+                            <div class="comment-quote">“</div>
+                            <div class="comment-title">
+                                来自地产项目营销管理人员
+                            </div>
+                            <div class="comment-des">
+                                根据威脉的营销理念,我们公司优化了自己的营销组织架构,用威脉做了最近一次活动新增客源30%,我天手机了300个报名,威脉的很多数据都成为了我在营销决策时的有力依据
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide comment-slide">
+                    <ul class="comment-list">
+                        <li class="comment-list-item">
+                            <div class="comment-quote">“</div>
+                            <div class="comment-title">
+                                来自教育行业营销管理人员
+                            </div>
+                            <div class="comment-des">
+                                我们以前用渠道,地推活动,百度竞价等等招纳新的生源,成本上越来越高,但效果确实越来越差,营销越来越难了,威脉能给我们带来的不只是生源,更是一种新的思维方式,是教我们如何去经营累计下来的教学口碑
+                            </div>
+                        </li>
+                        <li class="comment-list-item">
+                            <div class="comment-quote">“</div>
+                            <div class="comment-title">
+                                来自母婴行业副总经理
+                            </div>
+                            <div class="comment-des">
+                                以前为了吸粉，投入巨大，做过很多尝试，很难将流量转换成留量，通过威脉我们策划吸引来的流量更精准，流量背后的数据很清楚，更容易找到高价值客户。
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="comment-pagination"></div>
+        </div>
+    </div>
+
+    <!-- comment-end  -->
+    <div class="btn-bottom">
+        <p>威脉，让客户唾手可得</p>
+        <a href="/mobile/mapply" class="btn-sub">申请体验</a>
+    </div>
+</div>
+{% endblock %}
+
+{% block foot %}
+<script src="js/swiper.min.js"></script>
+<script src="js/chplayer/chplayer.js"></script>
+<script src="js/index.js"></script>
+{% endblock %}

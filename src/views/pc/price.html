@@ -1,0 +1,78 @@
+{% extends './public/layout.html' %}
+{% block head %}
+    <link rel="stylesheet" href="css/price.css">
+{% endblock %}
+{% block body %}
+<!--select B-->
+<div class="hm-price-select">
+  <h1>威脉产品价格</h1>
+  <table class="hm-price-table">
+    <thead>
+      <td >类型</td>
+      <td></td>
+      <td>时间／单位</td>
+      <td class="align-right">销售价格(RMB)</td>
+      <td>备注</td>
+    </thead>
+    <tbody>
+      <tr>
+        <td >企业账号</td>
+        <td></td>
+        <td class="text-space">1年/个</td>
+        <td class="align-right"><span class="color-2">35,800</span></td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td >个人账号</td>
+        <td></td>
+        <td class="text-space">1年/个</td>
+        <td class="align-right"><span class="color-1">398</span></td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td class="right-border" rowspan="2">上门实施服务费 <p class="gray-text">(可选)</p></td>
+        <td class="align-left">授权认证咨询师</td>
+        <td class="text-space">1人/天</td>
+        <td class="align-right"><span class="color-3">1,500</span></td>
+        <td>不含差旅住宿</td>
+      </tr>
+      <tr>
+        <td class="align-left">原厂咨询师</td>
+        <td class="text-space">1人/天</td>
+        <td class="align-right"><span class="color-4">3,000</span></td>
+        <td>一次至少购买3人／天（含差旅时间）</td>
+      </tr>
+      <tr>
+        <td class="align-left" colspan="5">
+          <ul class="hm-price-list">
+            <li><span>&#8226</span>  凡购买企业账号及个人账号，我们免费提供若干次远程培训和咨询服务 </li>
+            <li><span>&#8226</span> 若购买人数为N，则企业销售总价=35800+398*N </li>
+            <li><span>&#8226</span> 续费：按照首年购买相同金额收取，包括企业账号和个人账号</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!--select E-->
+
+
+
+<!--link B-->
+<div class="hm-price-link">
+    <div class="title">主动联系我们</div>
+    <div class="detail">
+        <div class="detail-up">
+            <span>联系销售</span>
+            <span class="blue">400-705-3600</span><br>
+        </div>
+        <!--<div class="detail-down">-->
+            <!--<span>在线客服</span>-->
+            <!--<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3541985386&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:3541985386:41" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>-->
+            <!--&nbsp;&nbsp;<span>在线销售</span>-->
+            <!--<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2970075292&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2970075292:41" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>-->
+        <!--</div>-->
+    </div>
+</div>
+<!--link E-->
+{% endblock %}

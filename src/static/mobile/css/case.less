@@ -1,0 +1,35 @@
+@import "basic.less";
+
+.mrt-ul {
+    padding: 1.5rem 2% 2.5rem 3%;
+    margin-left: 0;
+}
+.case-ul li {
+    border-bottom: 1px solid #eeeeee;
+    width: 94%;
+    margin: 0 auto;
+    padding: 1.5rem 0 1.5rem 0;
+    a{
+        color: #333333;
+        .case-left{ 
+            width: 58%;
+            float: left;
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
+            .case-left{ 
+                 width: 68%;
+            }
+         }
+        .case-right {
+            width: 11.6rem;
+            float: right;
+        }
+    }  
+}
+.case-ul li:last-child {
+    border-bottom: none;
+}
+
+

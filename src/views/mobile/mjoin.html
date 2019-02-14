@@ -1,0 +1,110 @@
+
+{% extends './public/layout.html' %}
+
+{% block head %}
+<link type="text/css" rel="stylesheet" href="css/join.css"/>
+{% endblock %}
+
+{% block body %}
+<div class="contanter">
+    <h3 class="title case-title fz2">城市代理
+        <p class="sub-title">1000+代理商选择威脉 共筑事业蓝图</p>
+    </h3>
+    <ul class="link-list join-top">
+        <li>
+            <img src="images/img2.png">
+        </li>
+        <li>
+            <img src="images/img3.png">
+        </li>
+        <li>
+            <img src="images/img4.png">
+        </li>
+        <li>
+            <img src="images/img5.png">
+        </li>
+        <li>
+            <img src="images/img6.png">
+        </li>
+        <li>
+            <img src="images/img7.png">
+        </li>
+        <li>
+            <img src="images/img8.png">
+        </li>
+        <li>
+            <img src="images/img9.png">
+        </li>
+    </ul>
+    <div class="top-border"></div>
+    <h3 class="title case-title fz2">代理商服务体系</h3>
+    <ul class="join-df borderbg">
+        <li class="clearfix">
+            <img src="images/icon17.png" class="join-icon">
+            <div class="join-txt">
+                <h3>培训支持</h3>
+                <p>全方面产品功能详解、产品应用场景解析；<br/>
+                    总部销售总监提供经验分享、销售话术、市场建议分享；</p>
+            </div>
+        </li>
+        <li class="clearfix">
+            <img src="images/icon18.png" class="join-icon">
+            <div class="join-txt">
+                <h3>运营支持</h3>
+                <p>提供全行业解决方案、活动节点营销方案；<br/>
+                    总部每周整理优秀企业运营案例，提供营销经验分享；</p>
+            </div>
+        </li>
+        <li class="clearfix">
+            <img src="images/icon19.png" class="join-icon">
+            <div class="join-txt">
+                <h3>推广支持</h3>
+                <p>每周向代理商收集优秀企业案例,并在全国范围内推<br/>广,让你的客户获得宣传推广的收益；包装优秀代<br/>理商，并进行全国推广。</p>
+            </div>
+        </li>
+        <li class="clearfix">
+            <img src="images/icon20.png" class="join-icon">
+            <div class="join-txt">
+                <h3>客服支持</h3>
+                <p>7*12小时专属客服经理一对一答疑服务专员：解决<br/>技术后台和产品功能。</p>
+            </div>
+        </li>
+    </ul>
+    <h3 class="title case-title  price-padd fz2">联系我们</h3>
+    <p class="price-contac">联系销售：<a href="tel:400-705-3600">400-705-3600</a></p>
+    <ul class="address">
+        <li>北京（总部）：</li>
+        <li class="add-li">北京市海淀区上地三街9号金隅嘉华大厦F座1008</li>
+        <li>长沙：</li>
+        <li class="add-li">湖南省长沙市北辰三角洲凤凰天阶苑五栋22001</li>
+        <li>深圳：</li>
+        <li class="add-li">深圳市福田区泰然四路创新科技广场B座1107B</li>
+        <li>成都：</li>
+        <li class="add-li">成都：四川省成都市双流区航都大街99号 国奥村</li>
+    </ul>
+
+    <div class="top-border"></div>
+    <h3 class="title case-title fz2">加盟申请</h3>
+    <ul class="join-input">
+        <li><input type="" name="" placeholder="公司名称" class="compyName"></li>
+        <li><input type="" name="" placeholder="姓名" class="userName"></li>
+        <li><input type="" name="" placeholder="手机号" class="telplone"></li>
+        <li class="select-css">
+            <select class="join-sel province" name="province" onchange="hm.getCity()">
+                <option value="">请选择省份</option>
+            </select>
+            <select class="city">
+                <option>请选择城市</option>
+            </select>
+        </li>
+        <li><textarea rows="3" cols="20" class="need" placeholder="需求说明"></textarea></li>
+    </ul>
+    <button class="join-sub sub">提交申请</button>
+    <div class="borderbg"></div>
+</div>
+{% endblock %}
+
+{% block foot %}
+<script type="text/javascript" src="js/comm/md5.js"></script>
+<script type="text/javascript" src="js/mjoin.js"></script>
+{% endblock %}

@@ -1,0 +1,117 @@
+@import "basic.less";
+
+.address {
+    padding-bottom: 1rem;
+    li{ 
+        text-align: left;
+        padding: 0 4%;
+    }
+    li.add-li {
+        color: #666666;
+        margin-bottom: 0.8rem;
+    }
+}
+.apply-bg {
+    background: @tcolff;
+}
+.apply-bd {
+    border-bottom: 1rem solid #f1f1f1;
+    line-height:4rem;
+    position: relative;
+    text-align: center;
+    a{  
+        display: inline-block;
+        position: absolute;
+        left: 2.5rem;
+        top:0;
+        img{ 
+            width: 1.7rem;
+        }
+    }
+}
+.join-input {
+    padding: 0 1.2rem;
+    background: @tcolff;
+    li { 
+        position: relative;
+        color: #999;
+        padding-bottom: 1px;
+        border-bottom: 1px solid #eeeeee;
+        input{ 
+            padding-left: 1.2rem;
+            font-size: 1.5rem;
+            height: 4.5rem;
+            line-height: 4.5rem;
+            color: #333;
+            border: none;
+            width: 90%;
+        }
+        input.kfcode{
+            width: 50%;
+        }
+        input.join-addr {
+            width: 40%;
+        }
+        select {
+            border: none;
+            border-bottom: 1px solid #eeeeee;
+            width: 50%;
+            height: 4.5rem;
+            line-height: 4.5rem;
+            color: #999;
+        }
+        textarea {
+            width: 100%;
+            color: #999;
+            text-align: left;
+            border: none;
+            border-bottom: 1px solid #eeeeee;
+            height: 6rem;
+            margin-top: 1rem;
+            font-family: "微软雅黑";
+        }
+        .get-Verification {
+            position: absolute;
+            right: 1rem;
+            top: 0.3rem;
+            padding: 0 0.3rem;
+            height: 100%;
+            line-height: 4.5rem;
+            color: #666;
+            vertical-align: middle;
+            text-decoration: none;
+            -webkit-tap-highlight-color:rgba(0,0,0,0);
+            font-size: 1.3rem;
+        }
+    }
+}
+.join-input li:last-child {
+    border-bottom: none;
+}
+.join-sub {
+    display: block;
+    font-size: 1.6rem;
+    border: none;
+    width: 85%;
+    margin: 2.5rem auto;
+    background: #000000;
+    border-radius: 3px;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    color: #fff;
+    text-align: @tcenter;
+}
+.apply-tel {
+    font-size: 1.3rem;
+    text-align: @tcenter;
+    padding: 0 0 2rem 0;
+    span{ 
+        color: #168adc;
+        font-size: 1.4rem;
+    }
+    a {
+        color: #168adc;
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,726 @@
+.clear, .clearfix {
+    zoom: 1
+}
+
+.eventContent, .mAbout3, .zhaoPin {
+    overflow: hidden
+}
+
+html {
+    font-size: 62.5%
+}
+
+body, div, em, img, li, p, span, table, td, tr, ul {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft Yahei", Arial
+}
+
+h1, h2, h3 {
+    font-size: 2.4rem;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-weight: 400
+}
+
+.clear, .clearfix:after {
+    height: 0;
+    clear: both;
+    font-size: 0;
+    line-height: 0
+}
+
+ul li {
+    list-style: none
+}
+
+.block-white {
+    width: 100%;
+    background-color: #fff
+}
+
+.block-gray {
+    width: 100%;
+    background-color: #f7f9fc
+}
+
+.block .title {
+    padding-bottom: 2.5rem
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    visibility: hidden
+}
+
+button, input, select, textarea {
+    outline: 0;
+    -webkit-tap-highlight-color: transparent
+}
+
+::-webkit-input-placeholder {
+    color: #999
+}
+
+:-moz-placeholder {
+    color: #999
+}
+
+::-moz-placeholder {
+    color: #999
+}
+
+:-ms-input-placeholder {
+    color: #999
+}
+
+.fz2 {
+    font-size: 2rem !important
+}
+
+.page-bg {
+    background: #f1f1f1
+}
+
+.bg {
+    background: #fff
+}
+
+.head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: #383d41;
+    height: 5rem;
+    color: #fff
+}
+
+.head .logo {
+    float: left
+}
+
+.head .logo img {
+    width: 7.5rem;
+    margin: 1.4rem 0 0 1.2rem
+}
+
+.head .tag-icon {
+    float: right;
+    width: 5rem;
+    height: 5rem
+}
+
+.head .pop-ul, .head .shadom-bg {
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0
+}
+
+.head .shadom-bg {
+    left: 0;
+    z-index: 10;
+    background: #000;
+    opacity: .35;
+    width: 100%
+}
+
+.head .pop-ul {
+    background: #2e2e2e;
+    right: 0;
+    z-index: 11
+}
+
+.box-list li, .box-list li .kf-r, .box-list li div, .contanter .mab-ul li i, .footer p, .footer p a, .head .pop-ul li a, .link-list li {
+    display: inline-block
+}
+
+.head .pop-ul li {
+    width: 12.5rem;
+    text-align: center;
+    background: #2e2e2e;
+    border-bottom: 1px solid #444
+}
+
+.head .pop-ul li a {
+    width: 12.5rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: #999;
+    text-decoration: none;
+    font-size: 1.5rem
+}
+
+.head .pop-ul li.cur-m {
+    background: #3b3b3b
+}
+
+.head .pop-ul li.cur-m a {
+    color: #fff;
+    font-size: 1.5rem
+}
+
+.contanter {
+    margin-top: 5rem
+}
+
+.case-title {
+    border-bottom: 1px solid #dcdcdc;
+    width: 94%;
+    margin: 0 auto;
+    padding-bottom: 2rem
+}
+
+.title {
+    text-align: center;
+    font-size: 1.7rem;
+    padding-top: 2rem
+}
+
+.link-list {
+    padding: 0 2%;
+    margin-left: .3rem;
+    margin-top: .5rem
+}
+
+.link-list li {
+    width: 49%
+}
+
+.link-list li img {
+    width: 100%
+}
+
+.box-list li {
+    width: 49%;
+    margin: 1rem 0
+}
+
+.box-list li .icon-h1 {
+    vertical-align: top;
+    width: 18%;
+    margin-top: 1rem
+}
+
+.box-list li .tlist-r {
+    width: 78%;
+    position: relative;
+    left: .5rem
+}
+
+.box-list li .tlist-r h3 {
+    font-size: 1.5rem;
+    padding-bottom: .5rem
+}
+
+.box-list li .tlist-r h3.ft-h3 {
+    color: #d6d6d6;
+    font-size: 1.5rem
+}
+
+.box-list li .tlist-r p {
+    font-size: 1.2rem;
+    color: #999
+}
+
+.box-list li .tlist-r p.ft-p {
+    color: #d6d6d6;
+    font-size: 1.5rem
+}
+
+.box-list li .tlist-r p.ft-p a {
+    color: #d6d6d6;
+    text-decoration: none
+}
+
+.borderbg {
+    border-bottom: 1rem solid #f1f1f1 !important
+}
+
+.case-bottom1 {
+    margin-bottom: 1rem;
+    border-bottom: none
+}
+
+.top-border {
+    border-top: 1rem solid #f1f1f1 !important
+}
+
+.footer {
+    background: #444855;
+    padding: 1rem 2% .5rem
+}
+
+.footer .ft-k1 {
+    float: left;
+    position: relative;
+    top: .5rem
+}
+
+.footer .ft-k1 p, .footer .ft-k1 p a {
+    position: relative;
+    top: .4rem
+}
+
+.footer .ft-k2 {
+    float: right;
+    padding-right: 3%
+}
+
+.footer img.ft-imgc {
+    width: 2.5rem
+}
+
+.footer img.ft-imgc2 {
+    margin-left: 1rem
+}
+
+.footer p {
+    position: relative;
+    left: .5rem;
+    font-size: 1.3rem;
+    color: #d6d6d6;
+    padding-bottom: 1rem
+}
+
+.footer p a {
+    color: #d6d6d6;
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 1.5rem
+}
+
+.footer .ft-online {
+    position: relative;
+    top: .6rem;
+    margin-right: .8rem;
+    width: auto
+}
+
+.footer .ft-online img {
+    width: 5.6rem;
+    margin-top: .7rem
+}
+
+@media only screen and (max-device-width: 320px) {
+    .footer img.ft-imgc2 {
+        margin-left: .8rem
+    }
+
+    .footer p a {
+        font-size: 1.2rem
+    }
+
+    .footer .ft-online {
+        top: .1rem;
+        width: 5.2rem
+    }
+
+    .footer .ft-online img {
+        width: 80%
+    }
+}
+
+.footer .ft-msg {
+    margin-top: .8rem
+}
+
+.footer .ft-msg ul {
+    border-top: 1px solid #626771;
+    padding: 1.2rem 0 1rem
+}
+
+.footer .ft-msg ul li {
+    color: #a6a7aa;
+    padding-bottom: .2rem;
+    font-size: 1rem
+}
+
+.footer .ft-msg ul.ftul li {
+    color: #d6d6d6
+}
+
+.contanter .abfz {
+    font-size: 1.8rem
+}
+
+.contanter .mab-p {
+    padding: .8rem 3% 1.5rem;
+    line-height: 2.3rem;
+    font-size: 1.5rem;
+    border-bottom: 1rem solid #f1f1f1;
+    color: #444
+}
+
+.contanter .mab-tb {
+    margin: 1rem 0
+}
+
+.contanter .case-top1 {
+    margin-top: 1rem
+}
+
+.contanter .team-list {
+    border-bottom: 1px solid #dcdcdc;
+    width: 96%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    text-align: center
+}
+
+.contanter .team-list img {
+    width: 35%
+}
+
+.contanter .team-list p.team-name {
+    position: relative;
+    font-size: 1.7rem;
+    width: 60%;
+    margin: 1rem auto;
+    color: #333
+}
+
+.contanter .team-list p.team-name span {
+    display: inline-block;
+    width: 10rem;
+    position: absolute;
+    top: .5rem;
+    color: #999;
+    text-align: left;
+    padding-left: 1rem;
+    font-size: 1.2rem
+}
+
+.contanter .team-list p.team-txt {
+    text-align: left;
+    color: #999;
+    padding: 0 2%;
+    font-size: 1.4rem;
+    line-height: 2rem
+}
+
+.contanter .team-no-border {
+    border: none
+}
+
+.contanter .mab-ul {
+    padding: 1.5rem 5% 1rem;
+    line-height: 1rem
+}
+
+.contanter .mab-ul li {
+    position: relative;
+    border-left: 1px solid #eee;
+    padding: 0 0 1rem 1rem;
+    color: #999;
+    font-size: 1.3rem
+}
+
+.contanter .mab-ul li i {
+    position: absolute;
+    left: -.5rem;
+    top: 0;
+    background: #4285f4;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%
+}
+
+.eventContent, .mAboutOne {
+    left: 0;
+    right: 0;
+    position: absolute
+}
+
+.noRadio, .yeRadio {
+    border-radius: 50%
+}
+
+.contanter .mab-ul li p {
+    color: #333;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2rem
+}
+
+.mAboutOne {
+    top: 5rem;
+    bottom: 0;
+    background: url(../images/about/wap_aboutbg.png);
+    background-size: contain;
+    color: #fff
+}
+
+.mAboutOne h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #fff;
+    height: 7rem;
+    line-height: 7rem
+}
+
+.mAboutOne .mInfor {
+    padding: 0 1.5rem;
+    color: #cccccf
+}
+
+.mAbout2, .tishiModel {
+    padding: 1rem
+}
+
+.mAboutOne .mInfor p {
+    text-indent: 2em;
+    line-height: 1.5rem;
+    font-size: 1.2rem
+}
+
+.eventContent {
+    height: 2.4rem;
+    bottom: 2rem
+}
+
+.noRadio {
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url(../images/about/noRadio.png) center center no-repeat #000;
+    background-size: 1.2rem;
+    margin-top: .7rem !important
+}
+
+.yeRadio {
+    width: 2.4rem;
+    height: 2.4rem;
+    background: url(../images/about/yeRadio.png) center center no-repeat #000;
+    background-size: contain
+}
+
+.eventJiLu {
+    height: 2.4rem;
+    background: url(../images/about/line.png) center center repeat-x
+}
+
+.eventJiLu > p {
+    height: 2.4rem;
+    text-align: center
+}
+
+.eventJiLu > p > span {
+    display: block;
+    margin: 0 auto
+}
+
+.eventJiLu > p > b {
+    display: block;
+    margin-top: .5rem;
+    font-weight: 400
+}
+
+.eventJiLu > p > i, .tishiModel {
+    display: none
+}
+
+.tishiModel {
+    width: 90%;
+    min-height: 3rem;
+    font-size: 12px !important;
+    border-radius: 5px;
+    background: rgba(64, 67, 70, .9);
+    position: absolute;
+    line-height: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgba(64, 67, 70, .9);
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    z-index: 9999;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -10px
+}
+
+.mAbout2 .one {
+    margin-top: 2rem;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 2rem
+}
+
+.mAbout2 .one .title1 {
+    font-weight: 400;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 1.8rem
+}
+
+.mAbout2 .one p {
+    color: #666;
+    font-size: 1.2rem;
+    line-height: 2rem
+}
+
+.mAbout2 .one:last-child {
+    border-bottom: none
+}
+
+.mAbout2 .blueLine {
+    width: 3.5rem;
+    height: .5rem;
+    background: #168adc
+}
+
+.mAbout3 {
+    padding-top: 1rem;
+    background: #f1f1f1
+}
+
+.mAbout3 .mAboutBg {
+    background: #fff
+}
+
+.mAbout3 .mAboutBg .title1 {
+    height: 7rem;
+    margin: 0 1rem;
+    text-align: center;
+    line-height: 7rem;
+    font-size: 1.8rem;
+    border-bottom: 1px solid #dcdcdc
+}
+
+.mAbout3 .mAboutBg .swiper-container {
+    padding-bottom: 6rem
+}
+
+.mAbout3 .mAboutBg .swiper-slide {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 0 10px #eee
+}
+
+.mAbout3 .mAboutBg .swiper-slide .text {
+    padding: 1rem;
+    height: 4rem;
+    overflow: hidden
+}
+
+.mAbout3 .mAboutBg img {
+    width: 100%
+}
+
+.mAbout3 .mAboutBg .mtow {
+    padding: 1rem 0
+}
+
+.mAbout3 .mAboutBg .mtow .swiper-pagination-bullet {
+    background: #333;
+    border: 1px solid #ccc
+}
+
+.mAbout3 .mAboutBg .mtow .swiper-pagination-bullet-active {
+    background: #eee;
+    border: 1px solid #ccc
+}
+
+.team .swiper-container {
+    padding-bottom: 3rem !important
+}
+
+.zhaoPin .bg {
+    background: #fff
+}
+
+.zhaoPin .bg .header {
+    height: 7rem;
+    text-align: center;
+    padding-top: 2rem;
+    border-bottom: 1px solid #ccc;
+    margin: 0 2rem
+}
+
+.zhaoPin .bg .header p:first-child {
+    font-size: 2.4rem;
+    margin-bottom: 1rem
+}
+
+.zhaoPin .bg .header p:last-child {
+    font-size: 1.5rem
+}
+
+.zhaoPin .tabs {
+    border-bottom: 1px solid #ccc;
+    height: 4rem;
+    margin: 0 2rem;
+    line-height: 4rem;
+    display: flex;
+    justify-content: space-around
+}
+
+.zhaoPin .tabs p {
+    height: 5rem;
+    padding: 0 .5rem
+}
+
+.zhaoPin .tabs .current {
+    width: auto;
+    height: 3.5rem;
+    border-bottom: .5rem solid #168adc
+}
+
+.zhaoPin .tabsCon {
+    display: none;
+    padding: 0 1rem
+}
+
+.zhaoPin .tabsCon .one1 {
+    font-size: 2rem;
+    margin-top: 2.5rem
+}
+
+.zhaoPin .tabsCon .one2 {
+    font-size: 1.3rem;
+    margin: .5rem 0
+}
+
+.zhaoPin .tabsCon .one3 {
+    font-size: 1.3rem
+}
+
+.zhaoPin .tabsCon .one3 span {
+    color: #ff991f
+}
+
+.zhaoPin .tabsCon .yaoqiu {
+    margin-top: 1.5rem;
+    padding-bottom: 2rem
+}
+
+.zhaoPin .tabsCon .yaoqiu p {
+    text-indent: 2em;
+    line-height: 2rem
+}
+
+.zhaoPin .showTabs {
+    display: block
+}
+
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    transition: all 1s
+}

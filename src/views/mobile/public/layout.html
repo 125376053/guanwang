@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>北京好脉-首页</title>
+    <link type="text/css" rel="stylesheet" href="css/swiper.min.css"/>
+    <link type="text/css" rel="stylesheet" href="css/home.css"/>
+    <script src="js/flexible.js"></script>
+    <script src="js/common.js"></script>
+    {% block head %}
+    {% endblock %}
+    <script src="https://www.71chat.com/web_client/dist/im.js" id="_IMScript"></script>
+    <script>
+        var _IM = getQYInstance();
+        _IM.config({
+            code: "145217",
+            language: "zh"
+        });
+        _IM.init();
+    </script>
+</head>
+<header class="head clearfix">
+    <a href="mindex.html" class="logo"><img src="images/logo-white2.png"/></a>
+    <img src="images/icon22.png" class="tag-icon"/>
+    <div class="shadom-bg"></div>
+    <ul class="pop-ul">
+        <li class="cur-m"><a href="mindex.html">首页</a></li>
+        <li><a href="/mobile/mproduct">产品</a></li>
+        <!-- <li><a href="mprice">价格</a></li> -->
+        <li><a href="/mobile/mcase">案例</a></li>
+        <li><a href="/mobile/mjoin">合作</a></li>
+        <li><a href="/mobile/mabout">关于</a></li>
+        <li><a href="/mobile/mapply">申请体验</a></li>
+    </ul>
+</header>
+
+{% block body %}
+
+{% endblock %}
+
+<!-- comment-end  -->
+<footer class="footer">
+    <div class="ft-k1">
+        <img src="images/icon15.png" class="ft-imgc">
+        <p>
+            全国客服热线<br/>
+            <a href="tel:400-705-3600">400-705-3600</a>
+        </p>
+    </div>
+    <!-- <div class="ft-k2">
+      <img src="images/icon16.png" class="ft-imgc ft-imgc2">
+      <p class="ft-online">
+        在线客服<br/>
+        <a href="mqqwpa://im/chat?chat_type=wpa&uin=3541985386&version=1&src_type=web&web_src=9ihaomai.com"><img src="images/qq.gif"></a>
+      </p>
+      <p class="ft-online">
+        在线销售<br/>
+        <a href="mqqwpa://im/chat?chat_type=wpa&uin=3541985386&version=1&src_type=web&web_src=9ihaomai.com"><img src="images/qq.gif"></a>
+      </p>
+    </div> -->
+    <div class="clear"></div>
+    <div class="ft-msg">
+        <ul>
+            <li>
+                邮箱：marketing@haomai-mrm.com
+            </li>
+            <li>
+                北京：北京市海淀区上地三街9号金隅嘉华大厦F座1008
+            </li>
+            <li>
+                长沙：湖南省长沙市北辰三角洲凤凰天阶苑五栋22001
+            </li>
+            <li>
+                深圳市福田区泰然四路创新科技广场B座1107B
+            </li>
+            <li>
+                成都：四川省成都市双流区航都大街99号 国奥村
+            </li>
+        </ul>
+        <ul class="ftul">
+            <li>Copyright © 2018 9ihaomai.com All rights reserved</li>
+            <li>北京好脉网络信息技术有限公司 | 京ICP备15046691号-4</li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+
+{% block foot %}
+
+{% endblock %}
+
+</html>

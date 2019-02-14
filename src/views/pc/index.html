@@ -1,0 +1,432 @@
+{% extends './public/layout.html' %}
+{% block head %}
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/lib/chplayer/chplayer.js"></script>
+    <script src="js/lib/md5.js"></script>
+{% endblock %}
+{% block body %}
+    
+<!--banner B-->
+<div class="hm-index-banner">
+    <ul class="w">
+        <li class="banner banner-1" style="display: block">
+            <div class="banner-info-box">
+              <div class="banner-title">
+                  <div class="banner-left-title">精准营销获客工具</div>
+                  <span class="hm-header-btn-register">申请体验</span>
+              </div>
+            </div>
+        </li>
+        <li class="banner banner-2" style="display: none">
+            <div class="banner-info-box">
+              <div class="banner-title">
+                  <!-- <div class="banner-left-title">全方位，立体化解决企业营销之痛</div> -->
+                  <!-- <span style="position: relative;top:100px" class="hm-header-btn-register">了解详情</span> -->
+                  <a href="http://uee.me/MFhR">
+                    <span style="position: relative;top:100px" class="hm-banner-action">了解详情</span>
+                  </a>
+
+              </div>
+            </div>
+        </li>
+        <!-- <li class="banner banner-3" style="display: none">
+            <div class="banner-info-box">
+              <div class="banner-title">
+                  <div class="banner-left-title">深入行业应用场景</div>
+                  <span class="hm-header-btn-register">申请体验</span>
+              </div>
+            </div>
+        </li> -->
+        <li class="dots">
+            <ul>
+                <li class="dotA dot" data-index="0">
+                    <svg viewBox="0 0 100 100" style="width: 14px; margin-top: -1px;">
+                        <path class="dotpath1" d="M 50,50 m 0,-45 a 45,45 0 1 1 0,90 a 45,45 0 1 1 0,-90" stroke="#fff" stroke-width="10"
+                              fill-opacity="0"
+                              style="stroke-dasharray: 282.783, 282.783; stroke-dashoffset: 282.783;"></path>
+                    </svg>
+                </li>
+                <li class="dotA dot" data-index="1">
+                    <svg  viewBox="0 0 100 100" style="width: 14px; margin-top: -1px;">
+                        <path class="dotpath1" d="M 50,50 m 0,-45 a 45,45 0 1 1 0,90 a 45,45 0 1 1 0,-90" stroke="#fff" stroke-width="10"
+                              fill-opacity="0"
+                              style="stroke-dasharray: 282.783, 282.783; stroke-dashoffset: 282.783;"></path>
+
+                    </svg>
+                </li>
+                <!-- <li class="dotA dot" data-index="2">
+                    <svg viewBox="0 0 100 100" style="width: 14px; margin-top: -1px;">
+                        <path class="dotpath1" d="M 50,50 m 0,-45 a 45,45 0 1 1 0,90 a 45,45 0 1 1 0,-90" stroke="#fff" stroke-width="10"
+                              fill-opacity="0"
+                              style="stroke-dasharray: 282.783, 282.783; stroke-dashoffset: 282.783;"></path>
+                    </svg>
+                </li> -->
+            </ul>
+        </li>
+    </ul>
+</div>
+<!--banner E-->
+
+<!--overview B-->
+<div class="hm-index-overview">
+    <div class="txt">
+        <div class="title-txt">
+          快速了解威脉
+        </div>
+        <div class="detail-txt">
+            透视小数据 营销无边界
+        </div>
+    </div>
+    <div class="w">
+      <div class="hm-video-wrapper">
+        <div class="hm-video-container" id="video"></div>
+        <!-- <ul class="hm-video-list">
+          <li class="hm-video-list-item" data-src="1111.mp4">
+          </li>
+          <li class="hm-video-list-item" data-src="2222.mp4">
+            <img src="" alt="">
+          </li>
+          <li class="hm-video-list-item">
+            <img src="" alt="">
+          </li>
+          <li class="hm-video-list-item">
+            <img src="" alt="">
+
+          </li>
+        </ul> -->
+      </div> 
+    </div>
+</div>
+<!--overview E-->
+<div class="hm-index-display">
+  <div class="w" >
+    <div class="hm-index-display-left">
+      <img src="images/index/logo/photo-6.png" alt="">
+    </div>
+    <div class="hm-index-display-right">
+      <div class="hm-index-display-right-title">
+        帮助企业挖掘微信交易流量
+      </div>
+      <div class="hm-index-display-right-list">
+        <ul>
+          <li class="hm-index-display-right-list-item">人脉、兴趣、诉求</li>
+          <li class="hm-index-display-right-list-item">广度、深度、热度</li>
+          <li class="hm-index-display-right-list-item">精准营销 老客户营销 全员营销 媒介营销</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- overview f -->
+<div class="hm-index-strap">
+  <div class="w">
+    <div class="hm-index-strap-text">
+      <div class="hm-index-strap-title">帮助企业落地营销、管理、运营</div>
+      <div class="hm-index-strap-des">
+        全面的产品培训 +7X24h 售后服务，专业的营销全链条支持的
+        <br/>
+        客户服务体系。
+      </div>
+    </div>
+  </div>
+</div>
+<!--trade B-->
+<div class="hm-index-trade">
+    <div class="w">
+        <div class="txt">
+            <div class="title-txt">
+              数百家企业的共同选择
+            </div>
+        </div>
+        <ul class="w">
+            <li class="logobanner banner-1" style="display: block">
+              <div class="logobanner-item">
+                <img src="images/index/logo/aisite.png" alt="">
+
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/aieryanke.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/aite.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/baoma.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/beieranqin.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/dianshi.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/dongbax.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/fengtian.png" alt="">
+              </div> 
+            </li>
+            <li class="logobanner banner-2" style="display: none">
+              <div class="logobanner-item">
+                <img src="images/index/logo/haoxiaozi.png" alt="">
+
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/huizhizs.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/lingmu.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/meidizs.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/meiwosi.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/meiyitian.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/meizhiyi.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/milanbaiyu.png" alt="">
+              </div>  
+               
+            </li>
+            <li class="logobanner banner-3" style="display: none">
+              <div class="logobanner-item">
+                <img src="images/index/logo/mingjiangzs.png" alt="">
+
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/ningmengshu.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/niuer.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/panzinvrenfang.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/qiansizhuangshi.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/ruilanyimei.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/shengjiaxin.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/tengmenguoji.png" alt="">
+              </div>  
+            </li>
+            <li class="logobanner banner-3" style="display: none">
+              <div class="logobanner-item">
+                <img src="images/index/logo/xinhuameitian.png" alt="">
+
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/yibaili.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/yingfujiaoyu.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/yuebaoyuan.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/zhiyinzs.png" alt="">
+              </div> 
+              <div class="logobanner-item">
+                <img src="images/index/logo/zhongguoliantong.png" alt="">
+              </div> 
+            </li>
+            <li class="dots">
+                <ul>
+                    <li class="dot dotB " data-index="0">
+                        <svg viewBox="0 0 100 100" style="width: 14px; margin-top: -1px;">
+                            <path class="dotpath2" d="M 50,50 m 0,-45 a 45,45 0 1 1 0,90 a 45,45 0 1 1 0,-90" stroke="#999" stroke-width="10"
+                                  fill-opacity="0"
+                                  style="stroke-dasharray: 282.783, 282.783; stroke-dashoffset: 282.783;"></path>
+                        </svg>
+                    </li>
+                    <li class="dot dotB" data-index="1">
+                        <svg  viewBox="0 0 100 100" style="width: 14px; margin-top: -1px;">
+                            <path class="dotpath2" d="M 50,50 m 0,-45 a 45,45 0 1 1 0,90 a 45,45 0 1 1 0,-90" stroke="#999" stroke-width="10"
+                                  fill-opacity="0"
+                                  style="stroke-dasharray: 282.783, 282.783; stroke-dashoffset: 282.783;"></path>
+    
+                        </svg>
+                    </li>
+                    <li class="dot dotB " data-index="2">
+                        <svg viewBox="0 0 100 100" style="width: 14px; margin-top: -1px;">
+                            <path class="dotpath2" d="M 50,50 m 0,-45 a 45,45 0 1 1 0,90 a 45,45 0 1 1 0,-90" stroke="#999" stroke-width="10"
+                                  fill-opacity="0"
+                                  style="stroke-dasharray: 282.783, 282.783; stroke-dashoffset: 282.783;"></path>
+                        </svg>
+                    </li>
+                    <li class="dot dotB " data-index="3">
+                      <svg viewBox="0 0 100 100" style="width: 14px; margin-top: -1px;">
+                          <path class="dotpath2" d="M 50,50 m 0,-45 a 45,45 0 1 1 0,90 a 45,45 0 1 1 0,-90" stroke="#999" stroke-width="10"
+                                fill-opacity="0"
+                                style="stroke-dasharray: 282.783, 282.783; stroke-dashoffset: 282.783;"></path>
+                      </svg>
+                  </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--trade E-->
+
+<!--partnern B-->
+<div class="hm-index-partnern">
+    <div class="w">
+        <div class="txt">
+            <div class="title-txt">
+                遍布全国的合作伙伴
+            </div>
+            <div class="detail-txt">
+                选择威脉，共筑事业蓝图
+            </div>
+        </div>
+        <ul>
+          <li class="commentbanner banner-1" style="display: block">
+            <div class="commentbanner-item">
+              <div class="commentbanner-quote">“</div>
+              <div class="commentbanner-item-title">
+                来自连锁整形机构营销主管
+              </div>
+              <div class="commentbanner-item-des">
+                我们每个人都是销售的种子，威脉带给我们更多关于业务的想象力，帮我们挖掘出成为强者的潜力。
+              </div>
+            </div>
+            <div class="commentbanner-item">
+              <div class="commentbanner-quote">“</div>
+              <div class="commentbanner-item-title">
+                来自银行一线客户经理
+              </div>
+              <div class="commentbanner-item-des">
+                通过威脉数据,我发现帮我转发的客户,都是前期做过工作的,有些还没有什么深交,让我挺感动,感觉做了很多事没有白辛苦
+              </div>
+            </div>
+            <div class="commentbanner-item">
+              <div class="commentbanner-quote">“</div>
+              <div class="commentbanner-item-title">
+                来自家装行业龙头企业董事长(一次性购买4000个威脉账户)
+              </div>
+              <div class="commentbanner-item-des">
+                企业要有胆识,通过理性预判,勇敢尝试任何可能带来价值的新玩法,错了我输的起,但对了,就可以将竞争者远远抛在后面
+              </div>
+
+            </div>
+            <div class="commentbanner-item">
+              <div class="commentbanner-quote">“</div>
+              <div class="commentbanner-item-title">
+                来自全员营销企业婚纱摄影行业技术部人员
+              </div>
+              <div class="commentbanner-item-des">
+                以前很排斥帮公司推广,现在使用威脉后,有种玩微博的感觉,我自己的数据每天都想着,谁阅读,转发我的内容,公司目前成交客户中哪些是我的人脉
+              </div>
+            </div>
+          </li>
+          <li class="commentbanner banner-2" style="display: none">
+             <div class="commentbanner-item">
+              <div class="commentbanner-quote">“</div>
+              <div class="commentbanner-item-title">
+                来自知名宝马4S店一线销售
+              </div>
+              <div class="commentbanner-item-des">
+                威脉的玩法很有意思，透过脉络挖出很多隐藏信息，高逼格玩法，以前看不到的现在一清二楚，每次活动都能比以往多带来几个客户，知道怎么玩出钱，很有意思。
+              </div>
+            </div>
+            <div class="commentbanner-item">
+              <div class="commentbanner-quote">“</div>
+              <div class="commentbanner-item-title">
+                来自地产项目营销管理人员
+              </div>
+              <div class="commentbanner-item-des">
+                根据威脉的营销理念,我们公司优化了自己的营销组织架构,用威脉做了最近一次活动新增客源30%,我天手机了300个报名,威脉的很多数据都成为了我在营销决策时的有力依据
+              </div>
+            </div>
+            <div class="commentbanner-item">
+              <div class="commentbanner-quote">“</div>
+              <div class="commentbanner-item-title">
+                来自教育行业营销管理人员
+              </div>
+              <div class="commentbanner-item-des">
+                我们以前用渠道,地推活动,百度竞价等等招纳新的生源,成本上越来越高,但效果确实越来越差,营销越来越难了,威脉能给我们带来的不只是生源,更是一种新的思维方式,是教我们如何去经营累计下来的教学口碑
+              </div>
+            </div>
+            <div class="commentbanner-item">
+              <div class="commentbanner-quote">“</div>
+              <div class="commentbanner-item-title">
+                来自母婴行业副总经理
+              </div>
+              <div class="commentbanner-item-des">
+                以前为了吸粉，投入巨大，做过很多尝试，很难将流量转换成留量，通过威脉我们策划吸引来的流量更精准，流量背后的数据很清楚，更容易找到高价值客户。
+              </div>
+            </div>
+             
+          </li>
+          
+          <li class="dots">
+              <ul>
+                  <li class="dot dotC " data-index="0">
+                      <svg viewBox="0 0 100 100" style="width: 14px; margin-top: -1px;">
+                          <path class="dotpath3" d="M 50,50 m 0,-45 a 45,45 0 1 1 0,90 a 45,45 0 1 1 0,-90" stroke="#999999" stroke-width="10"
+                                fill-opacity="0"
+                                style="stroke-dasharray: 282.783, 282.783; stroke-dashoffset: 282.783;"></path>
+                      </svg>
+                  </li>
+                  <li class="dot dotC" data-index="1">
+                      <svg  viewBox="0 0 100 100" style="width: 14px; margin-top: -1px;">
+                          <path class="dotpath3" d="M 50,50 m 0,-45 a 45,45 0 1 1 0,90 a 45,45 0 1 1 0,-90" stroke="#999999" stroke-width="10"
+                                fill-opacity="0"
+                                style="stroke-dasharray: 282.783, 282.783; stroke-dashoffset: 282.783;"></path>
+  
+                      </svg>
+                  </li>
+              </ul>
+          </li>
+      </ul> 
+    </div>
+</div>
+<!--partnern E-->
+
+<!--experience B-->
+<div class="hm-index-experience">
+    <div class="text">威脉，让客户唾手可得！</div>
+    <div class="apply-btn">申请体验</div>
+</div>
+<!--experience E-->
+
+<!--广告飘窗 B-->
+<div class="hm-index-advert hm-index-advert-1">
+    <div class="hm-index-advert-content">
+        <div class="hm-index-advert-content-txt">
+            威脉婚嫁市场战略合作伙伴：深圳亦青春网络科技有限公司
+        </div>
+        <div class="hm-index-advert-content-close">
+            <i class="icon iconfont icon-guanbi"></i>
+        </div>
+    </div>
+</div>
+<div class="hm-index-advert hm-index-advert-2">
+    <div class="hm-index-advert-content">
+        <div class="hm-index-advert-content-txt">
+            威脉婚嫁市场战略合作伙伴：深圳野狼战团文化传播有限公司
+        </div>
+        <div class="hm-index-advert-content-close">
+            <i class="icon iconfont icon-guanbi"></i>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block foot %}
+  <script src="js/index.js"></script>
+{% endblock %}
+

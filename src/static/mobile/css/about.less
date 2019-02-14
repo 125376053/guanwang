@@ -1,0 +1,259 @@
+@import "basic.less";
+
+.contanter {
+    .abfz{
+        font-size: 1.8rem;
+    }
+    .mab-p{
+        padding: 0.8rem 3% 1.5rem 3%;
+        line-height: 2.3rem;
+        font-size: 1.5rem;
+        border-bottom: 1rem solid @tcolf1;
+        color:#444;
+    }
+    .mab-tb {
+        margin: 1rem 0;
+    }
+    .case-top1 {
+        margin-top: 1rem
+    }
+    .team-list {
+        border-bottom: 1px solid #dcdcdc;
+        width: 96%;
+        margin: 0 auto;
+        padding: 1.5rem 0 1.5rem 0;
+        text-align: center;
+        img{ 
+            width: 35%
+        }
+        p.team-name {
+            position: relative;
+            font-size: 1.7rem;
+            width: 60%;
+            margin: 1rem auto;
+            color:#333;
+            span{ 
+                display: inline-block;
+                width: 10rem;
+                position: absolute;
+                top: .5rem;
+                color: #999;
+                text-align: left;
+                padding-left: 1rem;
+                font-size: 1.2rem;
+            }
+        }
+        p.team-txt {
+            text-align: left;
+            color: #999999;
+            padding: 0 2% 0rem 2%;
+            font-size: 1.4rem;
+            line-height: 2rem;
+        }
+    }
+    .team-no-border {
+        border: none;
+    }
+    .mab-ul {
+        padding: 1.5rem 5% 1rem 5%;
+        line-height: 1rem;
+        li{ 
+            position: relative;
+            border-left: 1px solid #eeeeee;
+            padding: 0 0 1rem 1rem;
+            color: #999;
+            font-size: 1.3rem;
+            i{ 
+                position: absolute;
+                left: -0.5rem;
+                top: 0;
+                display: inline-block;
+                background: #4285f4;
+                width: 1rem;
+                height: 1rem;
+                border-radius: 100%;
+            }
+            p {
+                color: #333;
+                font-size: 1.5rem;
+                padding: 1rem 0;
+                line-height: 2rem;
+            }
+        }
+    }   
+}
+
+.mAboutOne{
+    position: absolute;left:0;top:5rem;right:0;bottom:0; background: url("../images/about/wap_aboutbg.png");
+    background-size: contain; color:#fff;
+    h1{ font-size: 2.4rem;/*48/20*/ text-align: center;color:#fff; height: 7rem;line-height: 7rem;}
+    .mInfor{
+        padding:0 1.5rem; color:#cccccf;
+        p{ text-indent: 2em; line-height:1.5rem; font-size: 1.2rem;}
+    }
+}
+
+
+.eventContent{
+    position: absolute;left:0px;right:0px;height: 2.4rem; overflow: hidden;bottom:2rem;
+}
+
+.noRadio{width: 1.2rem;height: 1.2rem; background:#000 url("../images/about/noRadio.png") no-repeat center center;border-radius: 50%; background-size: 1.2rem; margin-top:.7rem!important; }
+.yeRadio{width: 2.4rem;height: 2.4rem; background:#000 url("../images/about/yeRadio.png") no-repeat center center; border-radius: 50%; background-size: contain;}
+
+.eventJiLu{height:2.4rem;background: url("../images/about/line.png") repeat-x center center;}
+.eventJiLu>p{height: 2.4rem; text-align: center;}
+.eventJiLu>p>span{ display: block; margin: 0 auto}
+.eventJiLu>p>b{display:block;margin-top:0.5rem; font-weight: normal;}
+.eventJiLu>p>i{ display: none;}
+
+/*提示层*/
+.tishiModel{width: 90%; min-height:3rem;
+    font-size:12px!important;
+    border-radius:5px; background: rgba(64,67,70,.9);
+    display: none; position: absolute; line-height:2rem;
+    margin-left: 5%;
+    margin-right:5%;
+    padding:1rem;
+    box-sizing: border-box;
+}
+.arrow-down {width:0px;height:0px;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-top:10px solid rgba(64,67,70,.9);
+    font-size:0px; line-height:0px;
+    position: absolute;
+    z-index:9999;
+    bottom:-10px;
+    left:50%;
+    margin-left: -10px;
+}
+
+.mAbout2{ padding: 1rem;
+    .one{
+        margin-top:2rem; border-bottom: 1px solid #dcdcdc; padding-bottom:2rem;
+        .title1{
+            font-weight: normal; height: 5rem; line-height: 5rem; font-size: 1.8rem;
+
+        }
+        p{color:#666; font-size:1.2rem; line-height: 2rem;}
+    }
+    .one:last-child{border-bottom:none;}
+    .blueLine{
+        width:3.5rem;height:.5rem; background:#168adc;
+    }
+}
+
+.mAbout3{
+    padding-top: 1rem; background: #f1f1f1; overflow: hidden;
+    .mAboutBg{
+        background: #fff;
+       /* padding:0 1rem;*/
+        .title1{height: 7rem; margin: 0 1rem; text-align: center; line-height: 7rem; font-size: 1.8rem;
+            border-bottom: 1px solid #dcdcdc;
+        }
+        .swiper-container{
+            padding-bottom: 6rem;
+        }
+        .swiper-wrapper{
+
+        }
+        .swiper-slide{
+            margin-top: 2rem;
+            padding-bottom:2rem;
+           /* margin: 0 30px;*/
+            box-shadow:0 0 10px #eee;
+            .text{
+                padding: 1rem;
+                height: 4rem;
+                overflow: hidden;
+            }
+        }
+        img{
+           width: 100%;
+        }
+        .mtow{
+
+            padding:1rem 0;
+            .swiper-pagination-bullet{
+                background: #333; border: 1px solid #ccc;
+            }
+            .swiper-pagination-bullet-active{
+                background: #eee; border: 1px solid #ccc;
+            }
+        }
+    }
+}
+
+.team{
+    .swiper-container{
+        padding-bottom: 3rem!important;
+    }
+}
+
+.zhaoPin{
+    overflow: hidden;
+    .bg{
+        background: #fff;
+        .header{
+            height: 7rem; text-align: center; padding-top: 2rem; border-bottom: 1px solid #ccc;
+            margin: 0 2rem;
+            p:first-child{ font-size: 2.4rem; margin-bottom: 1rem;}
+            p:last-child{ font-size: 1.5rem}
+        }
+    }
+    .tabs{
+        border-bottom: 1px solid #ccc;height: 4rem; margin: 0 2rem; line-height: 4rem;
+        display: flex; justify-content: space-around;
+        p{
+            height: 5rem; padding: 0 .5rem;
+        }
+        .current{
+            width: auto;
+            height: 3.5rem;
+            border-bottom: .5rem solid #168adc;
+        }
+
+    }
+    .tabsCon{
+        display: none;
+         padding: 0 1rem;
+        .one1{
+            font-size: 2rem;
+            margin-top: 2.5rem;
+        }
+        .one2{
+            font-size: 1.3rem;
+            margin: .5rem 0;
+        }
+        .one3{
+            font-size: 1.3rem;
+            span{color:#ff991f}
+        }
+        .yaoqiu{
+            margin-top: 1.5rem;
+            padding-bottom: 2rem;
+            .title2{
+
+            }
+            p{
+                text-indent: 2em;
+                line-height: 2rem;
+            }
+        }
+     }
+    .showTabs{
+        display: block;
+    }
+
+}
+
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    transition: all 1s;
+}

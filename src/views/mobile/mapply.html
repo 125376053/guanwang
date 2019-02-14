@@ -1,0 +1,30 @@
+{% extends './public/layout.html' %}
+
+{% block head %}
+<link type="text/css" rel="stylesheet" href="css/apply.css"/>
+{% endblock %}
+
+{% block body %}
+<div class="contanter">
+    <h3 class="apply-bd apply-bg fz2"><a href="javascript:window.history.back();"><img src="images/icon21.png"></a>注册获得体验机会
+    </h3>
+    <ul class="join-input">
+        <li><input class="kfname" type="" name="" placeholder="姓名(必填)"></li>
+        <li><input class="kfcompany" type="" name="" placeholder="企业名称(必填)"></li>
+        <li><input class="kfjob" type="" name="" placeholder="公司职位(必填)"></li>
+        <li><input class="kftel" type="" name="" placeholder="手机号(必填)"></li>
+        <li>
+            <input class="kfcode" type="" name="" placeholder="短信验证码(必填)">
+            <a href="javascript:void(0)" class="get-Verification getCode">获取验证码</a>
+        </li>
+    </ul>
+
+    <button class="join-sub submitr" type="submit">提交申请</button>
+    <p class="apply-tel">获得威脉机会有问题？请致电<a href="tel:400-705-3600">400-705-3600</a></p>
+</div>
+{% endblock %}
+
+{% block foot %}
+<script type="text/javascript" src="js/comm/md5.js"></script>
+<script type="text/javascript" src="js/mapply.js"></script>
+{% endblock %}

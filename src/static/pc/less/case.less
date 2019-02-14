@@ -1,0 +1,115 @@
+@import "basic";
+.hm-case-hangye{
+  .title{
+    padding-top: 165px;
+    padding-bottom: 60px;
+  }
+  .w{
+    .clearfix;
+    .b-82{
+      span{
+        background-color: rgba(22,26,29,0.82);
+      }
+    }
+    .b-6{
+      span{
+        background-color: rgba(22,26,29,0.6);
+      }
+    }
+    >li{
+      float: left;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      .size(292px,285px);
+      .bg;
+      span{
+        display: block;
+        .size(100%,100%);
+        line-height: 285px;
+        text-align: center;
+        font-size: 22px;
+        color: #ffffff;
+      }
+      &:hover{
+        span{
+          background-color: rgba(22,138,220,0.9);
+        }
+      }
+      &:nth-of-type(4n){
+        margin-right: 0;
+      }
+    }
+  }
+}
+.hm-case-jingdian{
+  .title{
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }
+  .w{
+    .clearfix;
+    //height: 630px;
+    height:auto;
+    overflow: hidden;
+    transition: max-height 2s linear;
+    margin-bottom: 60px;
+    //&.all{
+    //  height:auto;
+    //}
+    >li{
+      float: left;
+      .size(590px,190px);
+      margin-bottom: 20px;
+      &:nth-of-type(odd){
+        margin-right: 15px;
+      }
+      &:hover{
+        box-shadow: 2px 0 5px rgba(0,0,0,.16);
+      }
+
+      a{
+        display: block;
+        .clearfix;
+        .size(100%,100%);
+        color: #333;
+        .img{
+          float: left;
+          .bg;
+          .size(290px,100%)
+        }
+        .content{
+          float: left;
+          padding: 0 16px;
+          width: 298px;
+          height: 150px;
+          padding-top: 16px;
+          .jd-title{
+            font-size: 16px;
+            line-height: 28px;
+            height: 56px;
+            margin-bottom: 12px;
+            .text-overflow-more(2);
+          }
+          .jd-txt{
+            height: 75px;
+            color: #666666;
+            line-height: 25px;
+            .text-overflow-more(3);
+            overflow : hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            // -webkit-line-clamp: @lines;
+            -webkit-box-orient: vertical;
+          }
+        }
+      }
+
+
+    }
+  }
+  .checkmore{
+    .btn(90px,36px);
+    margin: 30px auto 60px auto;
+  }
+}
+

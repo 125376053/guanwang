@@ -1,0 +1,327 @@
+@import "basic";
+.title{
+  text-align: center;
+  font-size:34px
+}
+.hm-about-aboutWeimai{
+  padding-top: 65px;
+  text-align: center;
+  .title{
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .txt{
+    font-size: 16px;
+    line-height: 36px;
+    color: #666666;
+  }
+}
+.hm-about-team{
+  .title{
+    padding-top: 100px;
+  }
+  .w{
+    // padding: 0 60px;
+    overflow: hidden;
+    .clearfix;
+    .hm-about-team-member{
+      float: left;
+      margin-top: 60px;
+      margin-right: 32px;
+      width: 276px;
+      &:nth-of-type(4){
+        margin-right: 0;
+      }
+      .img{
+        margin: 0 auto;
+        .size(200px,200px);
+        .circle;
+        .bg;
+      }
+      .info{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: center;
+        .name{
+          display: inline-block;
+          font-size: 20px;
+          color: #333;
+          margin-right: 10px;
+        }
+       .position{
+          display: inline-block;
+          color: #666666;
+       }
+      }
+      .txt{
+        font-size: 16px;
+        color: #999;
+        line-height: 1.5;
+        text-align: justify;
+      }
+      
+    }
+  }
+
+}
+
+.hm-about-timeline{
+  padding: 100px 0;
+  .title{
+    padding-bottom: 60px;
+  }
+  .w{
+    .line{
+      margin: 5px auto;
+      width: 1px;
+      height: 25px;
+      background-color: #ccc;
+    }
+    .content{
+      width: 100%;
+      text-align: center;
+      font-size: 16px;
+      color: #000000;
+      .clearfix;
+      .left,.right{
+        width: 50%;
+        float: left;
+      }
+      .left{
+        >div{
+          float: right;
+        }
+        >.msg{
+          margin-right: -1px;
+        }
+      }
+      .right{
+        >div{
+          float: left;
+        }
+      }
+      .time{
+        margin: 0 16px;
+        line-height: 46px;
+      }
+      .msg{
+        display: inline-block;
+        border: 1px solid #cccccc;
+        border-radius: 2px;
+        padding: 10px;
+        //height: 58px;
+        line-height: 1.5;
+        text-align: left;
+      }
+    }
+  }
+}
+
+/*
+.aboutBanner{
+  position: relative;
+  height:526px; background: #ccc;text-align: center; color:#fff; padding-top: 65px;
+  .title1{ font-family:"微软雅黑";font-size:30px;padding-top:100px;}
+  .aboutInfor{
+    width: 1200px; margin: 15px auto 0;
+    p{ text-indent: 28px; line-height: 25px; text-align: left;}
+  }
+  .event{
+    height: 52px;width:100%;position: absolute;bottom:0;
+    .eventContent{
+      width: 1200px;height: 52px;margin: 0 auto;
+    }
+    .tabs{
+      position: absolute;
+      bottom:0;
+      let:0;
+      li{
+        width: 25px;height: 25px; background: red; float:left;margin-right:83px;
+      }
+    }
+  }
+}*/
+
+.Banner{ width: 100%; height: 566px;  background:#231e23 url("../images/about/banner.png") no-repeat center top; overflow: hidden; padding-top: 65px;
+  color:#fff; font-size: 14px;position: relative;}
+.w1200{margin: 0 auto; width: 1200px;}
+.Banner .title{ font-size: 34px; margin-top:80px;text-align: center; color:#fff;}
+.Banner .infor{margin-top:20px; width: 780px; margin: 20px auto 0;}
+.Banner .infor p{line-height: 25px;  /*text-align: center;*/ text-indent: 2em;}
+.Banner .event{width: 1200px;height: 60px; position: absolute;bottom:10px;
+  left:50%;margin-left:-600px;
+}
+
+.rightHign{width: 24px;height: 24px; background: url("../images/about/hignRight.png") no-repeat center center}
+.rightMo{width: 24px;height: 24px; background: url("../images/about/moRight.png") no-repeat center center}
+.leftHign{width: 24px;height: 24px; background: url("../images/about/hignLeft.png") no-repeat center center}
+.leftMo{width: 24px;height: 24px; background: url("../images/about/moleft.png") no-repeat center center}
+
+.noRadio{width: 24px;height: 24px; background:#000 url("../images/about/noRadio.png") no-repeat center top;border-radius: 50%;}
+.yeRadio{width: 24px;height: 24px; background:#000 url("../images/about/yeRadio.png") no-repeat center top; border-radius: 50%;}
+.yearRadio{width: 24px;height: 24px; background: url("../images/about/yearRadio.png") no-repeat center center;}
+
+.Banner .left{ position: absolute;left:0;}
+.Banner .right{ position: absolute;right:0;}
+
+.eventContent{
+  position: absolute;left:24px;right:24px;height: 60px; overflow: hidden;
+}
+
+.eventJiLu{height:60px;position: absolute;background: url("../images/about/line.png") repeat-x; min-width: 1152px;}
+.eventJiLu>p{ float: left; width: 105px; padding: 0 30px; height: 60px; text-align: center;}
+.eventJiLu>p>span{ display: block; margin: 0 auto}
+.eventJiLu>p>b{display:block;margin-top:10px; font-weight: normal;}
+.eventJiLu>p>i{ display: none;}
+
+/*提示层*/
+.tishiModel{min-width:100px; max-width:280px; min-height:50px;padding:8px; font-size: 12px;border-radius:5px; background: rgba(64,67,70,.9); display: none; position: absolute; line-height: 20px; }
+.arrow-down {width:0px;height:0px;
+  border-left:10px solid transparent;
+  border-right:10px solid transparent;
+  border-top:10px solid rgba(64,67,70,.9);
+  font-size:0px; line-height:0px;
+  position: absolute;
+  z-index:9999;
+  bottom:-10px;
+  left:50%;
+}
+
+.gsInfor{height: 410px; margin: 99px auto;  box-shadow: 0px 0px 5px #d0d0d2;}
+.gsInfor .imgsLeft{ float: left;width:642px;height: 411px;}
+.gsInfor .text{ float: right; width: 483px; height: 391px; padding: 10px 60px 0 0;}
+.gsInfor .text h3{ font-weight: normal; font-size: 18px; margin-top:30px; margin-bottom:5px;}
+.gsInfor .text p{ font-size: 13px; color:#737373; line-height: 25px;}
+
+.manageTeam{ overflow: hidden;}
+.manageTeam h1{ font-size: 34px; font-weight:normal; text-align: center;}
+.w1324{ width: 1324px;margin: 0 auto;}
+.changeImgs{ width: 1324px; height: 390px;  position:relative; margin-top: 58px;}
+.changeImgs>a{position: absolute; display:none; opacity: .7}
+.changeImgs>a:hover{
+  opacity: 1;
+}
+.changeImgs .left{left:0;}
+.changeImgs .right{right:0;}
+.imgsContent{ position: absolute;left:60px;right:60px; height: 382px;overflow: hidden; }
+#imgsSlide{ position: absolute; height: 382px;}
+.imgsContent li{ float: left; width: 290px;height: 380px; margin-right: 14px; position: relative; overflow: hidden; }
+.imgsContent li img{width: 100%;}
+.personInfor{ position: absolute; text-align: center; color:#fff;bottom:0px;left:0;top:0;right:0;
+  /*background: rgba(000,000,000,.5); */
+  background-image:linear-gradient(180deg,rgba(255,255,255,.0) 50%,rgba(0,0,0,.8) 100%);
+  padding: 10px;width: 290px;height:380px; padding-top:290px;
+}
+.personInfor>p{ line-height: 25px;font-size: 12px;}
+.personInfor>p:nth-child(1){ font-size: 14px;}
+
+.inforDetail{
+  position: absolute;left:0;top:380px;right:0;bottom:0; background: rgba(27,132,206,.9); color:#fff; z-index:1;
+  font-size: 14px; line-height: 25px; padding: 0 25px;/* display: -none;*/
+}
+.inforDetail>p:nth-child(1){ text-align: center;font-size: 18px; padding-top:30px;}
+.inforDetail>p:nth-child(2){ text-align: center;font-size: 14px; margin: 10px 0 20px 0;}
+.inforDetail>p:nth-child(3){ font-size: 12px;}
+.rightHign1{width: 50px;height: 382px; background: url("../images/about/hignRight1.png") no-repeat center center}
+.rightMo1{width: 50px;height: 382px; background: url("../images/about/moRight1.png") no-repeat center center}
+.leftHign1{width: 50px;height: 382px; background: url("../images/about/hignLeft1.png") no-repeat center center}
+.leftMo1{width: 50px;height: 382px; background: url("../images/about/moleft1.png") no-repeat center center}
+
+.fengCai{width: 100%; overflow: hidden;margin-top:100px;height: 420px;margin-bottom: 84px;}
+.fengCai h1{ font-size: 34px; font-weight:normal; text-align: center;}
+.fengCai2{margin-top:50px; overflow: hidden;}
+.fengCai2>a{position: absolute; display:none;}
+
+.fengCai2 .left{left:0;width: 52px;height: 420px;background: rgba(0,0,0,.5);z-index: 9;}
+.fengCai2 .right{right:0;width: 52px;height: 420px; background: rgba(0,0,0,.5); z-index: 9;}
+
+.rightHign2{ display:inline-block;width: 52px;height: 420px; background: url("../images/about/hignRight2.png") no-repeat center center}
+.rightMo2{ display:inline-block;width: 52px;height: 420px; background: url("../images/about/moRight2.png") no-repeat center center}
+.leftHign2{ display:inline-block;width: 52px;height: 420px; background: url("../images/about/hignLeft2.png") no-repeat center center}
+.leftMo2{ display:inline-block;width: 52px;height: 420px; background: url("../images/about/moleft2.png") no-repeat center center}
+
+.fengCaiContent{ position: absolute;left:0px; right:0px;height: 420px; overflow: hidden;}
+#imgsSlide2{ position: absolute; height: 432px; left:0;}
+#imgsSlide2 li{width: 286px;height: 420px; float: left;/*margin-right: 14px;*/ position: relative; overflow: hidden;}
+#imgsSlide2 li img{width: 100%;}
+
+.gray {
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   -o-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray;
+   transition: all 1s;
+ }
+
+.zhaoPin1{
+  width: 1200px; margin: 0 auto 92px;
+  .header1{
+    height: 224px; text-align: center;padding-top: 90px;
+    .p1{
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+    .p2{
+      font-size: 18px;
+    }
+  }
+  .footer1{
+    height: 506px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #ddd;
+    .button1{
+      width: 282px; float: left;
+      li{
+        width: 282px;
+        height: 101px;  background: #f8f8f8; padding-left: 20px;border-top:1px solid #ddd;
+        border-right: 1px solid #ddd;
+        padding-top: 30px;
+        box-sizing: border-box;
+        cursor: pointer;
+        b{
+          font-size: 18px;
+          font-weight: normal;
+        }
+        p{
+          font-size: 14px;
+          color: #999;
+          margin-top: 10px;
+        }
+      }
+      li:first-child{border-top:0;}
+      li.active{
+        width: 282px;
+        padding-left: 16px;
+        border-left:4px solid #168adc; background: #fff;
+      }
+    }
+    .content1{
+      width: 918px; float: left; padding-left: 58px; padding-top: 40px; overflow: auto;
+      padding-left:30px;
+      padding-bottom:20px;
+      height: 506px;
+      .one1{font-size: 18px;}
+      .one2{font-size: 14px;margin: 14px 0 8px}
+      .one3{
+        font-size: 14px;
+        span{
+          color:#ffa13b;
+        }
+      }
+      .yaoqiu{
+        margin-top: 30px; color:#666;
+        p{
+          padding-left: 34px; line-height: 25px;
+        }
+        div{
+          margin-bottom: 5px;
+        }
+      }
+
+    }
+    .content1{ display: none;}
+    .show1{ display: block;}
+  }
+}
